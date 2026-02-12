@@ -1,9 +1,9 @@
 # 💫 AGUS KIM T.
 
-🍟 I'm currently working at McDonald's, Magalang  
 🎓 College Student 
+🍟 I'm currently working at McDonald's, Magalang  
 💻 Interested in programming, problem-solving, and learning new technologies  
-🌱 Currently learning Java, Python, and Web Development (HTML, CSS, basic JavaScript)  
+🌱 Currently learning Java, Python, (HTML, CSS, basic JavaScript) and Video Editing  
 📚 Passionate about improving skills through practice, projects, and collaboration  
 
 ## 🌍 More About Me
