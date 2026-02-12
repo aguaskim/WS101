@@ -15,8 +15,7 @@
 GitHub: https://github.com/aguaskim  
 
 # ✨ Fun Fact
-🎓 Still learning, still curious  
-☕ Coffee helps, but Google helps more  
+🎓 Still learning, still curious    
 🔁 Believes practice is better than perfection  
 
 ## 🌐 Socials
