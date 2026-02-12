@@ -23,4 +23,4 @@ GitHub: https://github.com/aguaskim
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Kimmmehhh)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:aguaskim60@gmail.com)
 
-#school prposes
+#school purposes
