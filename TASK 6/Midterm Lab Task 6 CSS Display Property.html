@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TASK6</title>
+
+<style>
+
+/* MAIN WRAPPER */
+.main-wrapper {
+    width: 950px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* CONTAINER */
+.code1-container,
+.code23-container {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+/* CODE 1 */
+
+/* PAGE BACKGROUND */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* MAIN WRAPPER */
+.wrapper {
+    width: 600px;
+    background: white;
+    margin: 40px 0;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* TEXTBOX SECTION */
+.textboxes input {
+    display: block;
+    margin-bottom: 12px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* SURVEY SECTION */
+.inline-section {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+
+.survey-text {
+    flex: 1;
+    background: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.inline-section button {
+    padding: 10px 18px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.inline-section button:hover {
+    background: #e6e6e6;
+}
+
+/* GOOGLE SECTION */
+.google-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.google-logo {
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #999;
+}
+
+/* SEARCH BUTTONS */
+.search-buttons {
+    margin-top: 15px;
+}
+
+.search-buttons button {
+    padding: 8px 14px;
+    margin: 0 5px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-buttons button:hover {
+    background: #e9e9e9;
+}
+
+/* CODE 2 - SIGN UP */
+
+.box {
+    width: 370px;
+    padding: 15px;
+    border: 2px solid rgb(208, 202, 202);
+    margin: 0 auto 30px auto;
+    border-radius: 8px;
+}
+
+.half {
+    display: inline-block;
+    width: 48%;
+}
+
+.box input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.box button {
+    width: 100%;
+    padding: 12px;
+    background: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background: #3367d6;
+}
+
+/* CODE 3*/
+
+/* CONTAINER */
+.container {
+    display: block;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 25px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border: 2px solid rgb(208, 202, 202);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* HEADING */
+h1 {
+    display: block;
+    margin: 0 0 20px 0;
+    font-size: 28px;
+    font-weight: normal;
+    color: #000000;
+}
+
+/* INPUT */
+input[type="text"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 15px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    color: #666666;
+}
+
+/* BUTTONS */
+.btn {
+            display: inline-block;
+            width: 12px 15px;
+            padding: 3%;
+            border: none;
+            font-size: 12px;
+            cursor: pointer;
+            text-align: center;
+            box-sizing: middle; 
+            vertical-align: middle;
+            border-radius: 4px;
+        }
+
+
+/* FIRST BUTTON */
+.btn-primary {
+    background-color: #000000;
+    color: #ffffff;
+    margin-right: 2%;
+}
+
+/* SECOND BUTTON */
+.btn-secondary {
+    background-color: #e5e5e5;
+    color: #000000;
+}
+
+/* HOVER */
+.btn-primary:hover {
+    background-color: #333333;
+}
+
+.btn-secondary:hover {
+    background-color: #dcdcdc;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main-wrapper">
+
+    <!--  CODE 1 CONTAINER  -->
+    <div class="code1-container">
+
+        <div class="textboxes">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+        </div>
+
+        <div class="inline-section">
+            <div class="survey-text">
+                Thanks for chatting with our customer support. Would you like to take our quick survey?
+            </div>
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+
+        <div class="google-section">
+            <img src="https://static.vecteezy.com/system/resources/previews/029/284/974/non_2x/google-logo-on-transparent-background-popular-search-engine-google-logotype-symbol-icon-google-sign-stock-free-vector.jpg"
+            class="google-logo">
+
+            <input type="text" class="search-input" placeholder="Search Google or type a URL...">
+        </div>
+
+    </div>
+
+    <!-- CODE 2 and3 CONTAINER-->
+    <div class="code23-container">
+
+        <!-- SIGN UP -->
+        <div class="box">
+            <div class="half"><input placeholder="First name"></div>
+            <div class="half" style="float:right;"><input placeholder="Last name"></div>
+
+            <input placeholder="Email">
+
+            <button>Sign Up</button>
+        </div>
+
+        <!-- RIDE REQUEST -->
+        <div class="container">
+            <h1>Request a ride now</h1>
+
+            <input type="text" placeholder="Enter pickup location">
+            <input type="text" placeholder="Enter destination">
+
+            <button class="btn btn-primary">Request now</button>
+            <button class="btn btn-secondary">Schedule for later</button>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
