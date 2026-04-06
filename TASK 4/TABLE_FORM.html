@@ -3,81 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TASK2</title>
 </head>
-<body>
+
+<h2>UNORDERED LISTS OR ORDERED LISTS</h2>
+
+<ul>
+    <li>Item 1</li>
+        <ul type= circle>
+            <li>HELLO   
+            <ol type=a>
+                <li>Hello</li>
+                <li>Hi</li>
+                <li>Good Bye</li>
+                    <ul type = square>
+                        <li>Sayonara</li>
+                        <li>Adios</li>
+                        <li>Paalam</li>
+                    </ul>
+            </li>
+            </ol>
+    </li>
+    <li>Hi</li>
+    <li>Hello</li>
+    </ul>
+</ul>
+
     
-</body>
-</html>
+<ul>
+    <li>Item 2</li>
+        <ul type=circle>
+            <li> Hello
+            <li> Hi</li>
+            <li> Goodbye</li>
+        </ul>
+</ul>
 
-<body>
-    <h1 style="color:goldenrod;"> How can we help?</h1>
-    <fieldset>
-        <legend style="color:blue;"> Request for Proposal </legend>
+<ol type= 1>
+    <li>Item 3
+        <ol start=5>
+            <li> Hello
+            <li> Hi</li>
+            <li> Goodbye</li>
+         </ol>
+    </li>
+    <li>Item 4
+        <ol start=5>
+            <li> Hello
+            <li> Hi</li>
+            <li> Goodbye</li>
+         </ol>
+    </li>
+</ol>
 
-        <form>
+<h5>HTML Tables</h5>
+<table border ="2" width="50%">
+    <th colspan ="4"> Merging Table</th>
 
-        <table>
+    <tr>
+        <td rowspan="3" align = "center">A</td>
+        <td >B</td>
+        <td >C</td>
+        <td rowspan="3"align = "center">G </td>
+    </tr>
+    <tr>
+        <td colspan="2"align = "center">D</td>
+    </tr>
 
 <tr>
-<td style="width: 100px;">Name:</td>
-<td><input type="text" style="width: 250px;"></td>
+    <td >E</td>
+     <td >F</td>
 </tr>
 
 <tr>
-<td>Email:</td>
-<td><input type="text" style="width: 250px;"></td>
-</tr>
-
-<tr>
-<td>Username:</td>
-<td><input type = "text" style="width: 250px; "></td>
-</tr>
-
-<tr>
-<td>Password:</td>
-<td><input type = "password" style= "width: 250px;"></td>
-</tr>
-
-<tr>
-<td>Your Business:</td>
-<td><textarea rows="8" cols="40" placeholder="Briefly describe your business in this space"></textarea> </td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;">Company size: </td>
-<td><input type = "radio" name="company size:" value="Less than 10">Less than 10<br>
-<input type = "radio" name="company size:" value="11 to 50">11 to 50 <br>
-<input type = "radio" name="company size:" value="50 to 200">50 to 200<br>
-<input type = "radio" name="company size:" value="Over 200">Over 200<br></td>
-
-<tr>
-     <td>Service: </td>
-     <td> <input type="checkbox" class="inline"> Brand Identity
-     <input type="checkbox" class="inline"> New Website
-    <input type="checkbox" class="inline"> Web Redesign</td>
-</tr>
-
-<tr>
-    <td>Timeline: </td>
-    <td><select>
-        <option>Immediately</option>
-        <option>1-2 weeks</option>
-        <option>3-6 weeks</option>
-        <option>7-2 months</option>
-    </select></td>
+    <td colspan ="4" align = "center">H</td>
  </tr>
 
-<tr>
-    <td></td> <!-- para magkaroon ng allignment with the timeline -->
-    <td>
-        <input type="submit" value="Send to dev\design">
-    </td>
-</tr>
+</table>
 
-        </table>
 
-    </form>
-    </fieldset>
-</body>
-</html>
+
